@@ -27,6 +27,10 @@ Lecture devision: (not final yet)
       dotnet ef migrations add migrationName 
       dotnet ef database update 
 
+#### Unit Test (not available yet)
+    dotnet new mstest -o ProjectName
+    dotnet sln add ProjectFolderToBeTested/ProjectToBeTested.csproj
+
 ### Lecture 1, 2, 3:
   Backend (api, controller, services)
 ### Lecture 4
